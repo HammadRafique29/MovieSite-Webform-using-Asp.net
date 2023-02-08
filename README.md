@@ -1,4 +1,4 @@
-MovieSite Design "MoviesHUB"
+**MovieSite Design "MoviesHUB"**
 
 A simple website design for MovieSite. Design is related to Plex, most famous movie site, website.
 
