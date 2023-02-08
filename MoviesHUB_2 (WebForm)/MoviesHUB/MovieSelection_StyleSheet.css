@@ -1,0 +1,428 @@
+﻿body {
+    width:100%;
+    height:1850px;
+    background-color: #D9D9D9;
+}
+#form1{
+    width:100%;
+    height:1850px;
+}
+
+.TitleBar{
+    width:99%;
+    height:35px;
+    background-color:#000000;
+    display:flex;
+    align-items:center;
+}
+#container{
+    width:100%;
+    height:25px;
+    background-color:#000000;
+}
+#Homebtn{
+    width:8.3%;
+    height:100%;
+    min-width:100px;
+    float:left;
+    font-size:12pt;
+    font-family:Arial;
+    background-color:#000000;
+    color:white;
+    border:none;
+}
+#Homebtn:hover{
+    background-color:#E71F04;
+    color:white;
+    font-weight:bold;
+    border-radius:10px;
+}
+#customSearch{
+    width:21.6%;
+    min-width:260px;
+    height:100%;
+    background-color:white;
+    float:left;
+    margin-left:10px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+}
+#customSearchInput{
+    width:95%;
+    min-width:220px;
+    border:none;
+    border-radius:10px;
+}
+#customSearchImage{
+    width:2.5%;
+    min-width:30px;
+    height:100%;
+    border-radius: 0px 10px 10px 0px;
+}
+#categories{
+    width:8.3%;
+    min-width:100px;
+    height:100%;
+    background-color:#000000;
+    
+    border-radius:10px;
+    color:white;
+    font-family:Arial;
+    font-size:12pt;
+    float:right;
+    border:none;
+}
+#categories:hover{
+    background-color:white;
+    color: black;
+}
+#separator{
+    width:1px;
+    height:100%;
+    background-color:white;
+    float: right;
+    margin-left:10px;
+}
+#LoginButton{
+    width:8.3%;
+    float:left;
+    height:100%;
+    min-width:100px;
+    float:right;
+    color:white;
+    background-color:#9D9393;
+    margin-left:10px;
+    border-radius:10px;
+    border:none;
+    
+}
+#LoginButton:hover{
+    background-color:white;
+    color: black;
+}
+#SignUpButton{
+    width:8.3%;
+    height:100%;
+    min-width:100px;
+    color:white;
+    background-color:#E71F04;
+    float:right;
+    margin-left:10px;
+    border-radius:10px;
+    border:none;
+}
+#SignUpButton:hover{
+    background-color:white;
+    color: black;
+}
+
+
+.HighLight{
+    width:99%;
+    height:34.5%;
+    background-color:#3E3D3D;
+}
+#LeftSection{
+    width:40%;
+    height:100%;
+    background-color:ActiveCaption;
+    float:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#2F2E2E;
+    column-gap:20px;
+}
+#MoviePoster{
+    width:260px;
+    height:310px;
+    border:2px solid;
+    content:url("/img/movies/Top Gun.jpg");
+    background-size:260px;
+    border-radius:10px;
+}
+#RightSection{
+    width:60%;
+    height:100%;
+    background-color:#3E3D3D;
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+#HighLightPoster{
+    margin-top:0px;
+    width:100%;
+    height:100%;
+    border-radius:0px;
+    content:url("/img/movies/Top Gun.jpg");
+    background-size:100%;
+    opacity: 0.3;
+    filter: grayscale(100%);
+    
+}
+
+#MoviePosterDetails{
+    width: 20.5%;
+    position: absolute;
+    content: url("/img/movies/Top Gun.jpg");
+    background-size: 100%;
+    margin: 7% 8.3% 8.3% 8.3%;
+    border: 5px solid;
+    border-radius: 15px;
+}
+#MovieName{
+    position: absolute;
+    background-color: #000000;
+    margin: 7% -65%;
+    font-size: 22pt;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+    width: 25%;
+    text-align: center;
+    border-radius: 10px;
+}
+#Duration{
+    position: absolute;
+    margin: 10% 0% 0% 37%;
+    background-color: transparent;
+    font-size: 15pt;
+    color: #FFF;
+    font-family: arial;
+}
+#ratingDiv{
+    position: absolute;
+    margin: 11% 37%;
+    display: flex;
+}
+#ImdbRate{
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: arial;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 10px;
+}
+
+#buttonDiv{
+   position: absolute;
+    margin: 14.2% 37%;
+    display: flex;
+    column-gap: 10px;
+}
+.buttonStyling{
+    background-color: #DD1515;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    font-size: 11pt;
+    padding: 8px;
+    border: 1px solid;
+}
+.buttonStyling:hover{
+    font-size: 12pt;
+    color:white
+}
+
+#watchListButton{
+    background-color:#000000;
+    border-color:black;
+    color:white;
+}
+#watchListButton:hover{
+    background-color:#000000;
+    border-color:white;
+    color:white;
+}
+
+#movieDes{
+    position: absolute;
+    color: white;
+    margin: 17% -62%;
+    width: 40%;
+    font-size: 11pt;
+    font-family: arial;
+}
+
+#MoreDetails{
+    position: absolute;
+    margin: 21% 37%;
+}
+
+#moreDetailsHeading{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    margin: 0px 0px 10px 0px;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+.labelStyle{
+    color: white;
+    font-size: 11pt;
+    margin-left: 10px;
+    font-family: arial;
+}
+.inputlabelStyle{
+    color: #c1bcbc;
+    font-size: 12pt;
+}
+
+
+#Body{
+    width: 99%;
+    height: 620px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#movieCasting{
+    width:91.6%;
+    background-color:#302F2F;
+
+}
+#relatedMovies{
+    width:91.6%;
+}
+
+#Body .movieCastingmessageDiv{
+background-color: #3E3A3A;
+width: 17.6%;
+height: 32px;
+border-radius: 10px;
+margin: 10px 50px;
+font-size: 15pt;
+font-weight: bold;
+font-family: arial;
+display: flex;
+justify-content: center;
+align-items: center;
+color:white;
+border:1px solid;
+border-color:black;
+}
+
+.castingStyle{
+    height: 260px;
+    border-radius:20px;
+    background-color:gray;
+    margin: 10px;
+}
+
+#Panel1{
+    background-color:#302F2F;
+}
+#Panel2{
+    background-color:gray;
+}
+
+.CastPanel{
+width: 95.6%;
+height: 180px;
+background-color: white;
+margin: 0px 0px 0px 50px;
+border-radius: 10px;
+}
+
+
+
+.FooterSection{
+    width: 99%;
+    height:29.2%;
+    background-color:#302E2E;
+}
+#FooterRow{
+    width:100%;
+    height:70%;
+    background-color:gray;
+    position:relative;
+}
+#AppName{
+    font-size:22pt;
+    margin-top: 10px;
+    text-decoration:underline;
+    color:white;
+}
+#FooterRowCol1{
+    width:30%;
+    height:87.4%;
+    background-color:#302E2E;
+    float:left;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:50px;
+}
+.FooterRowCol{
+    width:14%;
+    height:87.4%;
+    background-color:#302E2E;
+    float:left;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:50px;
+}
+.FooterRowHeadings{
+    font-size:15pt;
+    font-family:Arial;
+    margin:20px 0px 20px 0px;
+    color:white;
+}
+a{
+    font-size: 12pt;
+    font-family: Arial;
+    text-align: left;
+    color:#A7A4A4;
+}
+a:hover{
+    color:white;
+    cursor:context-menu;
+}
+#FooterSecurityRow{
+    width:100%;
+    height:10%;
+    background-color:#302E2E;
+}
+#SecurityBlocks{
+    width: 40%;
+    background-color: #302E2E;
+    padding-left:10%;
+    float:left;
+}
+.SecurityAnchor{
+    margin-right: 20px;
+}
+#FooterDecurityEmpyDiv1{
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+.SocialMedia{
+    width:2.1%;
+    height:22px;
+    background-color:#302E2E;
+    border:none;
+}
+.SocialMedia:hover{
+    width:2.5%;
+    height:25px;
+    background-color:#302E2E;
+    border:none;
+}
+#FooterEmptyRow{
+    background-color:#302E2E;
+}
+

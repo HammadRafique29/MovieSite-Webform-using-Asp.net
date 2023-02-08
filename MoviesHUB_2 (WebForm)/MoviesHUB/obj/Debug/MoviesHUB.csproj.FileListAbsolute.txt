@@ -1,0 +1,13 @@
+E:\Comsats Vehari\Semester 5\VIsual Programming\Lab Tasks\MoviesHUB\MoviesHUB\bin\MoviesHUB.dll.config
+E:\Comsats Vehari\Semester 5\VIsual Programming\Lab Tasks\MoviesHUB\MoviesHUB\bin\MoviesHUB.dll
+E:\Comsats Vehari\Semester 5\VIsual Programming\Lab Tasks\MoviesHUB\MoviesHUB\bin\MoviesHUB.pdb
+E:\Comsats Vehari\Semester 5\VIsual Programming\Lab Tasks\MoviesHUB\MoviesHUB\obj\Debug\MoviesHUB.csprojResolveAssemblyReference.cache
+E:\Comsats Vehari\Semester 5\VIsual Programming\Lab Tasks\MoviesHUB\MoviesHUB\obj\Debug\MoviesHUB.dll
+E:\Comsats Vehari\Semester 5\VIsual Programming\Lab Tasks\MoviesHUB\MoviesHUB\obj\Debug\MoviesHUB.pdb
+D:\Comsats Vehari\BSSE Batch-15 Semester 5\VIsual Programming\Lab Tasks\WebForm\MoviesHUB_2 (WebForm)\MoviesHUB\bin\MoviesHUB.dll.config
+D:\Comsats Vehari\BSSE Batch-15 Semester 5\VIsual Programming\Lab Tasks\WebForm\MoviesHUB_2 (WebForm)\MoviesHUB\bin\MoviesHUB.dll
+D:\Comsats Vehari\BSSE Batch-15 Semester 5\VIsual Programming\Lab Tasks\WebForm\MoviesHUB_2 (WebForm)\MoviesHUB\bin\MoviesHUB.pdb
+D:\Comsats Vehari\BSSE Batch-15 Semester 5\VIsual Programming\Lab Tasks\WebForm\MoviesHUB_2 (WebForm)\MoviesHUB\obj\Debug\MoviesHUB.csproj.AssemblyReference.cache
+D:\Comsats Vehari\BSSE Batch-15 Semester 5\VIsual Programming\Lab Tasks\WebForm\MoviesHUB_2 (WebForm)\MoviesHUB\obj\Debug\MoviesHUB.csproj.CoreCompileInputs.cache
+D:\Comsats Vehari\BSSE Batch-15 Semester 5\VIsual Programming\Lab Tasks\WebForm\MoviesHUB_2 (WebForm)\MoviesHUB\obj\Debug\MoviesHUB.dll
+D:\Comsats Vehari\BSSE Batch-15 Semester 5\VIsual Programming\Lab Tasks\WebForm\MoviesHUB_2 (WebForm)\MoviesHUB\obj\Debug\MoviesHUB.pdb
